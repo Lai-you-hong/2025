@@ -37,8 +37,8 @@ else:
 地 = int(input("地理成績: "))
 歷 = int(input("歷史成績: "))
 公 = int(input("公民成績: "))
-total = 國 + 數 + 自 + 英 + 地 + 歷 + 公
-average = total / 7
+總分 = 國 + 數 + 自 + 英 + 地 + 歷 + 公
+平均 = 總分 / 7
 
 print(f"國文: {國}")
 print(f"數學: {數}")
@@ -48,5 +48,5 @@ print(f"地理: {地}")
 print(f"歷史: {歷}")
 print(f"公民: {公}")
 
-print(f"總分: {total}")
-print(f"平均: {average:.1f}")
+print(f"總分: {總分}")
+print(f"平均: {平均:.2f}")
