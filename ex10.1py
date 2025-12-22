@@ -1,0 +1,50 @@
+fruits = ["apple", "banana", "cherry"]
+print(fruits)
+
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+fruits[2] = "grape"
+
+print(fruits[2])
+print(fruits)
+
+for f in fruits:
+    print(f)
+    
+for i in range(len(fruits)):
+    print(i,":",fruits[i])
+'''''''''''''''''''''''''''''''''''''''''''''''
+person = ("Tom", 20)
+print(person)
+
+for p in person:
+    print(p)
+
+person.append("jerry")
+
+print(person)
+
+my_set = {1, 2, 3, 2,1,2,4,}
+
+print(my_set) 
+'''''''''''''''''''''''''''''''''''''''''''''''
+a = {1, 2, 3}
+b = {2, 3, 4}
+print(a & b)  # 交集
+print(a | b)  # 聯集
+print(a - b)  # 差集
+'''''''''''''''''''''''''''''''''''''''''''''''
+pi = 3.14159
+print(f"圓周率約為 {pi:.5f}")
+
+P = 899
+print(f" P 為 {P:3d}")
+print(f" P 為 {P:4d}")
+print(f" P 為 {P:5d}")
+'''''''''''''''''''''''''''''''''''''''''''''''
+n = "tom"
+a = 25
+print(n,"的年齡是",a)
+print(f"{n} 的年齡是 {a}")
